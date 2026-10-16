@@ -1,0 +1,696 @@
+[
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c001",
+    "sku": "WM-001",
+    "title": "Wireless Mouse",
+    "description": "Ergonomic 2.4GHz wireless mouse",
+    "price": 4199,
+    "category": "peripherals",
+    "tags": [
+      "wireless",
+      "usb",
+      "office"
+    ],
+    "attributes": {
+      "color": "black",
+      "dpi": 1600,
+      "battery": "AA"
+    },
+    "variants": [
+      {
+        "sku": "WM-001-BLK",
+        "color": "black",
+        "stock": 40
+      },
+      {
+        "sku": "WM-001-WHT",
+        "color": "white",
+        "stock": 12
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c002",
+    "sku": "MK-101",
+    "title": "Mechanical Keyboard",
+    "description": "Hot-swappable mechanical keyboard, RGB",
+    "price": 8499,
+    "category": "peripherals",
+    "tags": [
+      "gaming",
+      "rgb"
+    ],
+    "attributes": {
+      "switch": "blue",
+      "layout": "US"
+    },
+    "variants": [
+      {
+        "sku": "MK-101-BLU",
+        "switch": "blue",
+        "stock": 25
+      },
+      {
+        "sku": "MK-101-RED",
+        "switch": "red",
+        "stock": 20
+      },
+      {
+        "sku": "MK-101-BRN",
+        "switch": "brown",
+        "stock": 15
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c003",
+    "sku": "WK-201",
+    "title": "Wireless Keyboard",
+    "description": "Slim Bluetooth wireless keyboard",
+    "price": 6299,
+    "category": "peripherals",
+    "tags": [
+      "wireless",
+      "bluetooth",
+      "office"
+    ],
+    "attributes": {
+      "color": "white",
+      "layout": "US"
+    },
+    "variants": [
+      {
+        "sku": "WK-201-WHT",
+        "color": "white",
+        "stock": 30
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c004",
+    "sku": "WP-301",
+    "title": "Wireless Presenter",
+    "description": "Presentation clicker with laser pointer",
+    "price": 2499,
+    "category": "peripherals",
+    "tags": [
+      "wireless",
+      "presentation"
+    ],
+    "attributes": {
+      "color": "black",
+      "range_m": 30
+    },
+    "variants": [
+      {
+        "sku": "WP-301-BLK",
+        "color": "black",
+        "stock": 50
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c005",
+    "sku": "MP-401",
+    "title": "Mouse Pad XL",
+    "description": "Extended desk mat, stitched edges",
+    "price": 1499,
+    "category": "peripherals",
+    "tags": [
+      "desk",
+      "gaming"
+    ],
+    "attributes": {
+      "color": "black",
+      "size": "XL"
+    },
+    "variants": [
+      {
+        "sku": "MP-401-BLK",
+        "color": "black",
+        "stock": 100
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c006",
+    "sku": "WS-501",
+    "title": "Wrist Rest",
+    "description": "Gel wrist rest for keyboard",
+    "price": 999,
+    "category": "peripherals",
+    "tags": [
+      "ergonomic",
+      "office"
+    ],
+    "attributes": {
+      "color": "gray",
+      "material": "gel"
+    },
+    "variants": [
+      {
+        "sku": "WS-501-GRY",
+        "color": "gray",
+        "stock": 60
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c007",
+    "sku": "ER-2501",
+    "title": "Ergonomic Keyboard",
+    "description": "Split ergonomic mechanical keyboard",
+    "price": 10999,
+    "category": "peripherals",
+    "tags": [
+      "ergonomic",
+      "office"
+    ],
+    "attributes": {
+      "color": "black",
+      "layout": "US"
+    },
+    "variants": [
+      {
+        "sku": "ER-2501-BLK",
+        "color": "black",
+        "stock": 18
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c008",
+    "sku": "WE-601",
+    "title": "Wireless Earbuds",
+    "description": "True wireless earbuds, ANC",
+    "price": 6999,
+    "category": "audio",
+    "tags": [
+      "wireless",
+      "bluetooth"
+    ],
+    "attributes": {
+      "color": "white",
+      "battery_h": 24
+    },
+    "variants": [
+      {
+        "sku": "WE-601-WHT",
+        "color": "white",
+        "stock": 45
+      },
+      {
+        "sku": "WE-601-BLK",
+        "color": "black",
+        "stock": 40
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c009",
+    "sku": "NC-701",
+    "title": "Noise Cancelling Headphones",
+    "description": "Flagship ANC over-ear headphones",
+    "price": 16999,
+    "category": "audio",
+    "tags": [
+      "premium",
+      "travel"
+    ],
+    "attributes": {
+      "color": "black",
+      "battery_h": 40
+    },
+    "variants": [
+      {
+        "sku": "NC-701-BLK",
+        "color": "black",
+        "stock": 22
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c010",
+    "sku": "BS-801",
+    "title": "Bluetooth Wireless Speaker",
+    "description": "Portable Bluetooth speaker, IPX5",
+    "price": 4999,
+    "category": "audio",
+    "tags": [
+      "wireless",
+      "bluetooth",
+      "party"
+    ],
+    "attributes": {
+      "color": "blue",
+      "battery_h": 12
+    },
+    "variants": [
+      {
+        "sku": "BS-801-BLU",
+        "color": "blue",
+        "stock": 35
+      },
+      {
+        "sku": "BS-801-BLK",
+        "color": "black",
+        "stock": 30
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c011",
+    "sku": "MM-901",
+    "title": "USB Microphone",
+    "description": "Cardioid condenser mic for streaming",
+    "price": 7499,
+    "category": "audio",
+    "tags": [
+      "streaming",
+      "podcast"
+    ],
+    "attributes": {
+      "color": "black",
+      "polar_pattern": "cardioid"
+    },
+    "variants": [
+      {
+        "sku": "MM-901-BLK",
+        "color": "black",
+        "stock": 28
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c012",
+    "sku": "EA-1001",
+    "title": "Earbud Tips Pack",
+    "description": "Memory-foam earbud tips, 3 sizes",
+    "price": 499,
+    "category": "audio",
+    "tags": [
+      "accessories"
+    ],
+    "attributes": {
+      "sizes": [
+        "S",
+        "M",
+        "L"
+      ]
+    },
+    "variants": [
+      {
+        "sku": "EA-1001-MIX",
+        "sizes": "S/M/L",
+        "stock": 200
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c013",
+    "sku": "HS-1101",
+    "title": "Studio Headphones",
+    "description": "Reference studio monitoring headphones",
+    "price": 12999,
+    "category": "audio",
+    "tags": [
+      "premium",
+      "studio"
+    ],
+    "attributes": {
+      "color": "black",
+      "impedance_ohm": 32
+    },
+    "variants": [
+      {
+        "sku": "HS-1101-BLK",
+        "color": "black",
+        "stock": 16
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c014",
+    "sku": "UC-1201",
+    "title": "USB-C Hub 7-in-1",
+    "description": "7-in-1 USB-C hub with 4K HDMI",
+    "price": 3799,
+    "category": "cables",
+    "tags": [
+      "usb-c",
+      "dock"
+    ],
+    "attributes": {
+      "ports": [
+        "HDMI",
+        "USB-A",
+        "USB-A",
+        "USB-C",
+        "SD",
+        "microSD",
+        "RJ45"
+      ]
+    },
+    "variants": [
+      {
+        "sku": "UC-1201-GRY",
+        "color": "gray",
+        "stock": 55
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c015",
+    "sku": "HD-1301",
+    "title": "HDMI Cable 2m",
+    "description": "4K high-speed HDMI cable, 2m",
+    "price": 899,
+    "category": "cables",
+    "tags": [
+      "hdmi",
+      "4k"
+    ],
+    "attributes": {
+      "length_m": 2,
+      "color": "black"
+    },
+    "variants": [
+      {
+        "sku": "HD-1301-BLK",
+        "color": "black",
+        "stock": 120
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c016",
+    "sku": "WC-1401",
+    "title": "Wireless Charger Pad",
+    "description": "15W fast wireless charging pad",
+    "price": 1999,
+    "category": "cables",
+    "tags": [
+      "wireless",
+      "charging"
+    ],
+    "attributes": {
+      "color": "white",
+      "watt": 15
+    },
+    "variants": [
+      {
+        "sku": "WC-1401-WHT",
+        "color": "white",
+        "stock": 70
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c017",
+    "sku": "CL-1501",
+    "title": "USB-C Cable 1m",
+    "description": "Braided USB-C fast-charge cable, 1m",
+    "price": 499,
+    "category": "cables",
+    "tags": [
+      "usb-c",
+      "charging"
+    ],
+    "attributes": {
+      "length_m": 1,
+      "color": "white"
+    },
+    "variants": [
+      {
+        "sku": "CL-1501-WHT",
+        "color": "white",
+        "stock": 150
+      },
+      {
+        "sku": "CL-1501-BLK",
+        "color": "black",
+        "stock": 140
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c018",
+    "sku": "EC-1601",
+    "title": "Ethernet Cable 5m",
+    "description": "Cat6 Ethernet cable, 5m",
+    "price": 999,
+    "category": "cables",
+    "tags": [
+      "network",
+      "cat6"
+    ],
+    "attributes": {
+      "length_m": 5,
+      "color": "yellow"
+    },
+    "variants": [
+      {
+        "sku": "EC-1601-YLW",
+        "color": "yellow",
+        "stock": 90
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c019",
+    "sku": "DP-1701",
+    "title": "DisplayPort Cable 1.5m",
+    "description": "4K DisplayPort cable, 1.5m",
+    "price": 1199,
+    "category": "cables",
+    "tags": [
+      "display",
+      "4k"
+    ],
+    "attributes": {
+      "length_m": 1.5,
+      "color": "black"
+    },
+    "variants": [
+      {
+        "sku": "DP-1701-BLK",
+        "color": "black",
+        "stock": 80
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c020",
+    "sku": "DL-1801",
+    "title": "Desk Lamp LED",
+    "description": "Dimmable LED desk lamp, 3 modes",
+    "price": 2799,
+    "category": "office",
+    "tags": [
+      "lighting",
+      "desk"
+    ],
+    "attributes": {
+      "color": "white",
+      "modes": 3
+    },
+    "variants": [
+      {
+        "sku": "DL-1801-WHT",
+        "color": "white",
+        "stock": 42
+      },
+      {
+        "sku": "DL-1801-BLK",
+        "color": "black",
+        "stock": 38
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c021",
+    "sku": "LS-1901",
+    "title": "Laptop Stand",
+    "description": "Aluminum laptop stand, adjustable",
+    "price": 3299,
+    "category": "office",
+    "tags": [
+      "ergonomic",
+      "desk"
+    ],
+    "attributes": {
+      "color": "silver",
+      "material": "aluminum"
+    },
+    "variants": [
+      {
+        "sku": "LS-1901-SLV",
+        "color": "silver",
+        "stock": 48
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c022",
+    "sku": "WC-2001",
+    "title": "Webcam 1080p",
+    "description": "1080p webcam with dual mic",
+    "price": 4199,
+    "category": "office",
+    "tags": [
+      "video",
+      "remote"
+    ],
+    "attributes": {
+      "resolution": "1080p",
+      "mic": true
+    },
+    "variants": [
+      {
+        "sku": "WC-2001-BLK",
+        "color": "black",
+        "stock": 36
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c023",
+    "sku": "NB-2101",
+    "title": "Notebook Set",
+    "description": "Set of 3 dotted notebooks, 192 pages",
+    "price": 899,
+    "category": "office",
+    "tags": [
+      "stationery"
+    ],
+    "attributes": {
+      "pages": 192,
+      "count": 3
+    },
+    "variants": [
+      {
+        "sku": "NB-2101-3PK",
+        "count": 3,
+        "stock": 110
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c024",
+    "sku": "DL-2201",
+    "title": "Desk Organizer",
+    "description": "5-compartment desk organizer",
+    "price": 1899,
+    "category": "office",
+    "tags": [
+      "desk",
+      "storage"
+    ],
+    "attributes": {
+      "color": "black",
+      "compartments": 5
+    },
+    "variants": [
+      {
+        "sku": "DL-2201-BLK",
+        "color": "black",
+        "stock": 65
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c025",
+    "sku": "FM-2401",
+    "title": "Footrest Massager",
+    "description": "Ergonomic footrest with massage nubs",
+    "price": 2999,
+    "category": "office",
+    "tags": [
+      "ergonomic",
+      "office"
+    ],
+    "attributes": {
+      "color": "black"
+    },
+    "variants": [
+      {
+        "sku": "FM-2401-BLK",
+        "color": "black",
+        "stock": 33
+      }
+    ],
+    "active": true,
+    "updated_at": "2026-09-25T10:00:00Z"
+  },
+  {
+    "_id": "64f1a2b3c4d5e6f7a8b9c026",
+    "sku": "OG-9999",
+    "title": "Old Gadget Pro",
+    "description": "Discontinued gadget (do not sell)",
+    "price": 7999,
+    "category": "peripherals",
+    "tags": [
+      "discontinued"
+    ],
+    "attributes": {
+      "color": "beige"
+    },
+    "variants": [
+      {
+        "sku": "OG-9999-BGE",
+        "color": "beige",
+        "stock": 0
+      }
+    ],
+    "active": false,
+    "updated_at": "2026-09-25T10:00:00Z"
+  }
+]
