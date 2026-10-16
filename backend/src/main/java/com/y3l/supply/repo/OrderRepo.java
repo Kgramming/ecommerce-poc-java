@@ -10,6 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.OffsetDateTime;
+import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -37,8 +38,20 @@ public class OrderRepo {
         this.jdbc = jdbc;
     }
 
-    private static String iso(OffsetDateTime dt) {
-        return dt.format(DateTimeFormatter.ISO_OFFSET_DATE_TIME);
+    private static String iso(Object v) {
+        if (v == null) return "";
+        OffsetDateTime odt;
+        if (v instanceof OffsetDateTime o) {
+            odt = o;
+        } else if (v instanceof java.sql.Timestamp ts) {
+            // queryForList returns java.sql.Timestamp for timestamptz columns
+            odt = ts.toInstant().atOffset(ZoneOffset.UTC);
+        } else if (v instanceof java.util.Date d) {
+            odt = d.toInstant().atOffset(ZoneOffset.UTC);
+        } else {
+            return v.toString();
+        }
+        return odt.format(DateTimeFormatter.ISO_OFFSET_DATE_TIME);
     }
 
     /** Groups the flat join rows into orders, mirroring Python's _group(). */
@@ -51,10 +64,10 @@ public class OrderRepo {
                 return new Acc(
                         oid, userId,
                         new CustomerOut(userId, (String) r.get("name"), (String) r.get("email")),
-                        iso((OffsetDateTime) r.get("order_date")),
+                        iso(r.get("order_date")),
                         (String) r.get("status"),
                         ((Number) r.get("total_amount")).doubleValue(),
-                        iso((OffsetDateTime) r.get("updated_at")));
+                        iso(r.get("updated_at")));
             });
             if (r.get("product_id") != null) {
                 acc.items().add(new OrderItemOut(
