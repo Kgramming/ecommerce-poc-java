@@ -31,7 +31,7 @@ read model via **dual-write** (with a **polling** worker as strategy B).
 mvn -q -f backend/pom.xml compile exec:java \
   -Dexec.mainClass="com.y3l.supply.seed.SeedRunner"
 
-# 2. Start the API (port 8000)
+# 2. Start the API (port 8001)
 mvn -f backend/pom.xml spring-boot:run
 
 # 3. Start the frontend (port 5173)
@@ -46,3 +46,18 @@ Environment overrides: `PGHOST/PGPORT/PGDATABASE/PGUSER/PGPASSWORD`,
 ```bash
 python3 tools/acceptance.py   # 12/12 expected on a pristine seed
 ```
+
+## 📚 Knowledge Bytes
+
+Understand how this backend works internally through guided, code-specific
+Knowledge Bytes written in ASD-STE100 Simplified Technical English — each byte
+names the real source files and functions, shows actual snippets, and explains
+what the code does, why it exists, and how it connects to the rest of the
+project.
+
+Read them in order — start with `01_Three_Databases.md`:
+
+**[Explore the Knowledge Bytes →](knowledge-bytes/)**
+
+The prompt that generates bytes in this format lives in
+[`knowledge-bytes/knowledge-bytes-prompt.md`](knowledge-bytes/knowledge-bytes-prompt.md).
